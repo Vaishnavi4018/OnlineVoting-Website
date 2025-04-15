@@ -1,0 +1,15 @@
+.navbar {
+  background-color: #93e73f;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .MuiButton-root {
+  font-weight: 500;
+  margin-left: 8px;
+  text-transform: none;
+}
+
+.navbar .MuiTypography-root {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}

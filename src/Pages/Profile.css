@@ -1,0 +1,203 @@
+/* .profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    padding: 20px;
+  }
+  
+  .profile-box {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  input:disabled {
+    background-color: #e0e0e0;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #4A90E2;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .save-button {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(:disabled) {
+    opacity: 0.9;
+  }
+  
+  button:active:not(:disabled) {
+    transform: scale(0.98);
+  }
+   */
+
+   /* Profile Container */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f3f3;
+    padding: 20px;
+  }
+  
+  /* Profile Box */
+  .profile-box {
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+  }
+  
+  /* Title */
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Section Title */
+  .section-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 15px;
+  }
+  
+  /* Input Group */
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+    color: #444;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fafafa;
+    transition: 0.3s;
+  }
+  
+  /* Disabled input field */
+  .input-group input:disabled {
+    background-color: #e9ecef;
+    color: #888;
+    border: 1px solid #ddd;
+  }
+  
+  /* Input focus effect */
+  .input-group input:focus {
+    outline: none;
+    border-color: #f90;
+    background-color: white;
+  }
+  
+  /* Button Group */
+  .button-group {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+  }
+  
+  button {
+    padding: 10px 16px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  /* Amazon-style buttons */
+  .edit-button {
+    background-color: #0073e6;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #005bb5;
+  }
+  
+  .save-button {
+    background-color: #ff9900;
+    color: white;
+  }
+  
+  .save-button:hover {
+    background-color: #e68900;
+  }
+  
